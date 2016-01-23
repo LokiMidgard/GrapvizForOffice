@@ -2,18 +2,19 @@
 <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
   <Id>38dbc713-0c01-4225-ba78-2c877449ce67</Id>
-  <Version>1.0.0.0</Version>
+  <Version>0.1.0.0</Version>
   <ProviderName>Patrick Kranz</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Grapviz For Office" />
-  <Description DefaultValue="This App uses a graphviz implementation to render a graph to an image."/>
+  <Description DefaultValue="This App uses a graphviz implementation to render a graph to an image.&#xD;&#xA;Licensed under MIT License. See project site."/>
+  <SupportUrl DefaultValue="https://github.com/LokiMidgard/GrapvizForOffice" />
   <Hosts>
     <Host Name="Workbook" />
     <Host Name="Presentation" />
     <Host Name="Document" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="~remoteAppUrl/App/Home/Home.html" />
+    <SourceLocation DefaultValue="http://lokimidgard.github.io/GrapvizForOffice/GrapvizForOfficeWeb/App/Home/Home.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
