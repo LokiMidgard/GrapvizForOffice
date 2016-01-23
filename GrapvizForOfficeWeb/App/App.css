@@ -1,0 +1,54 @@
+﻿/* Häufiger App-Stil */
+
+#content-header {
+    background: #2a8dd4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Feste Headerhöhe */
+    overflow: hidden; /* Bildlaufleisten für Header deaktivieren */
+}
+
+#content-main {
+    background: #fff;
+    position: fixed;
+    top: 80px; /* Gleicher Wert wie Höhe von #content-header */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; /* Bildlaufleisten in Hauptinhaltsabschnitt aktivieren */
+}
+
+.padding {
+    padding: 15px;
+}
+
+#notification-message {
+    background-color: #818285;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    min-height: 80px;
+    right: 0;
+    z-index: 100;
+    bottom: 0;
+    display: none; /* Ausgeblendet bis aufgerufen */
+}
+
+    #notification-message #notification-message-header {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    #notification-message #notification-message-close {
+        background-image: url("../Images/Close.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+    }
